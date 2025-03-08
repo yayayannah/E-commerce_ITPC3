@@ -14,6 +14,64 @@ ul {
     list-style: none;
 }
 
+/* ++++++++++++ REUSABLE CSS +++++++++++++++ */
+.margin-blk-1{
+    margin-block: 10px;
+}
+.margin-blk-2{
+    margin-block: 30px;
+}
+.margin-blk-3{
+    margin-block: 50px;
+}
+.margin-blk-4{
+    margin-block: 80px;
+}
+.margin-blk-5{
+    margin-block: 120px;
+}
+.txt-clr-gray{
+    color: #555555;
+}
+.margin-ln-1{
+    margin-inline: 10px;
+}
+.margin-ln-2{
+    margin-inline: 30px;
+}
+.margin-ln-3{
+    margin-inline: 50px;
+}
+.font-1{
+    font-size: 15px;
+}
+.font-2{
+    font-size: 17px;
+}
+.font-3{
+    font-size: 20px;
+}
+.ln-h-1{
+    line-height: 1.3;
+}
+.ln-h-2{
+    line-height: 1.4;
+}
+.ln-h-3{
+    line-height: 1.6;
+}
+.ln-h-4{
+    line-height: 1.7;
+}
+.ln-h-5{
+    line-height: 1.8;
+}
+.font-stl-itl{
+    font-style: italic;
+}
+
+
+
 /* ============ HEADER =============== */
 .header-container {
     height: 65px;
@@ -211,7 +269,48 @@ ul {
 }
 
 /* ++++++++++ ABOUT SECTION +++++++++++++++ */
+.about-vid{
 
+}
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.video-player {
+    width: 80%;  /* 80% of the container width */
+    min-width: 400px; /* Ensures it doesn’t get too big */
+    height: auto; /* Keeps aspect ratio */
+    display: block; /* Removes extra spacing */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 50px;
+}
+.description{
+    padding-inline: 100px;
+}
+
+.anua-descriptions p{
+    text-align: justify;
+}
+
+/* ++++++++++++++ SEE MORE +++++++++++++++++ */
+.moisturizer-cleanser{
+    display: flex;
+}
+.moisturizer-img-container{
+    background-image: url("assets/img/shop-moisturizer.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+}
+.cleanser-img-container{
+    background-image: url("assets/img/shop-cleanser.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+}
 
 
 
