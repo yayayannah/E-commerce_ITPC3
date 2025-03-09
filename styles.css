@@ -77,10 +77,10 @@ ul {
 
 
 /* ============ HEADER =============== */
-.header-container {
+header{
     height: 65px;
     width: 100%;
-    background-color: #F5EFE6;
+    background-color: #F1F0E9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -273,9 +273,6 @@ ul {
 }
 
 /* ++++++++++ ABOUT SECTION +++++++++++++++ */
-.about-vid{
-
-}
 .about-section{
     display: flex;
     justify-content: space-between;
@@ -384,6 +381,80 @@ ul {
 .rad-duo-desc p{
     text-align: justify;
 }
+.highlight-btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    background-color: #333;
+    border: solid 1px #333;
+    
+}
+
+/* ++++++++++++++ FOOTER ++++++++++++++++ */
+footer{
+    display: block;
+    min-height: 400px;
+    background-color: #F1F0E9;
+    width: 100%;
+    border-top: solid 1px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 27%;
+}
+.company{
+    padding: 15px;
+    width: 15%;
+}
+.footer-shop{
+    padding: 15px;
+    width: 15%;
+}
+.customer-care{
+    padding: 15px;
+    width: 15%;
+}
+.anua-inc{
+    padding: 15px;
+    width: 20%;
+}
+.footer-logo{
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: 10px;
+}
+.footer-sub-btn{
+    text-decoration: none;
+    color: white;
+    padding: 12px 18px;
+    background-color: #333;
+    border: solid 1px #333;
+    margin-block: 15px;
+    text-align: center;
+}
+.footer-form{
+    margin-top: 20px;
+    padding: 13px 10px;
+    border: solid 1px #989898;
+}
+.social-icons-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-icons{
+    margin: 20px;
+    display: block;
+    height: 24px;
+    width: auto;
+}
+
 
 
 
